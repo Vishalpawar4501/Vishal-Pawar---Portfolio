@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishal Pawar | Aspiring AWS Cloud Engineer</title>
+  <meta name="description" content="Portfolio of Vishal Pawar, aspiring AWS Cloud Engineer skilled in AWS, Linux, Docker and Terraform.">
+  <!-- Fonts + icons (CDN). Remove if you want a fully offline site. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="logo"><i class="fa-solid fa-cloud"></i> Vishal<span>Pawar</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav id="navMenu" class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============ HOME / HERO ============ -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="hello">Hi, I'm</p>
+      <h1>Vishal Pawar</h1>
+      <h2 class="title">Aspiring <span id="typed">AWS Cloud Engineer</span></h2>
+      <p class="lead">BTech AIML student building hands-on skills in AWS, Linux, Docker and Terraform, aiming for a Cloud Infrastructure Engineer role.</p>
+      <div class="btns">
+        <!-- Put your resume PDF in this folder and name it resume.pdf -->
+        <a href="resume.pdf" download class="btn primary"><i class="fa-solid fa-download"></i> Download Resume</a>
+        <a href="#contact" class="btn ghost">Contact Me</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:your.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <!-- Replace the div below with: <img src="profile.jpg" alt="Vishal Pawar"> -->
+      <div class="avatar"><span>VP</span><small>Profile photo placeholder</small></div>
+      <div class="chip c1"><i class="fa-brands fa-aws"></i> AWS</div>
+      <div class="chip c2"><i class="fa-brands fa-docker"></i> Docker</div>
+      <div class="chip c3"><i class="fa-brands fa-linux"></i> Linux</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="sec-title">About Me</h2>
+    <div class="about-grid reveal">
+      <p>I'm a passionate cloud computing learner with a BTech in Artificial Intelligence and Machine Learning. I'm especially interested in AWS infrastructure, cloud services and automation, and I enjoy learning by building and breaking things in a lab.</p>
+      <p>I'm working towards a career as an AWS Cloud Engineer or Cloud Infrastructure Engineer, and I'm looking for internship and fresher opportunities where I can learn from experienced teams and contribute.</p>
+      <ul class="focus">
+        <li><i class="fa-solid fa-server"></i> Cloud infrastructure on AWS</li>
+        <li><i class="fa-solid fa-gears"></i> Automation with Terraform</li>
+        <li><i class="fa-brands fa-linux"></i> Linux administration</li>
+        <li><i class="fa-brands fa-docker"></i> Containers and basic DevOps</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section alt">
+  <div class="container">
+    <h2 class="sec-title">Technical Skills</h2>
+    <div class="cards skills reveal">
+      <div class="card"><i class="fa-brands fa-aws"></i><h3>AWS</h3><p>Core cloud services</p></div>
+      <div class="card"><i class="fa-solid fa-server"></i><h3>EC2</h3><p>Virtual servers</p></div>
+      <div class="card"><i class="fa-solid fa-bucket"></i><h3>S3</h3><p>Object storage</p></div>
+      <div class="card"><i class="fa-solid fa-user-shield"></i><h3>IAM</h3><p>Access management</p></div>
+      <div class="card"><i class="fa-solid fa-cloud"></i><h3>VPC</h3><p>Virtual networks</p></div>
+      <div class="card"><i class="fa-brands fa-linux"></i><h3>Linux</h3><p>Command line and administration</p></div>
+      <div class="card"><i class="fa-solid fa-network-wired"></i><h3>Networking</h3><p>IP, DNS, subnets</p></div>
+      <div class="card"><i class="fa-brands fa-github"></i><h3>Git &amp; GitHub</h3><p>Version control</p></div>
+      <div class="card"><i class="fa-brands fa-docker"></i><h3>Docker</h3><p>Containers</p></div>
+      <div class="card"><i class="fa-solid fa-cubes"></i><h3>Terraform</h3><p>Infrastructure as code</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="sec-title">Projects</h2>
+    <!-- Edit titles, descriptions and links. Replace "#" with your real GitHub repo URLs. -->
+    <div class="cards projects reveal">
+      <article class="card project">
+        <i class="fa-solid fa-globe"></i>
+        <h3>AWS S3 Static Website Hosting</h3>
+        <p>Hosting a static website on Amazon S3 with public access configured through bucket policies. <em>[Add your own details and results]</em></p>
+        <div class="tags"><span>AWS S3</span><span>IAM</span><span>HTML/CSS</span></div>
+        <a href="#" class="link"><i class="fa-brands fa-github"></i> View on GitHub</a>
+      </article>
+      <article class="card project">
+        <i class="fa-solid fa-diagram-project"></i>
+        <h3>Terraform VPC and EC2 Deployment</h3>
+        <p>Provisioning a VPC, subnet and EC2 instance using Terraform code instead of the console. <em>[Add your own details and results]</em></p>
+        <div class="tags"><span>Terraform</span><span>VPC</span><span>EC2</span></div>
+        <a href="#" class="link"><i class="fa-brands fa-github"></i> View on GitHub</a>
+      </article>
+      <article class="card project">
+        <i class="fa-brands fa-docker"></i>
+        <h3>Docker Web Application Deployment</h3>
+        <p>Containerizing a web application with Docker and running it on a Linux server. <em>[Add your own details and results]</em></p>
+        <div class="tags"><span>Docker</span><span>Linux</span><span>Git</span></div>
+        <a href="#" class="link"><i class="fa-brands fa-github"></i> View on GitHub</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications" class="section alt">
+  <div class="container">
+    <h2 class="sec-title">Certifications</h2>
+    <!-- Only add certifications you have actually earned or are genuinely preparing for. -->
+    <div class="cards certs reveal">
+      <div class="card cert"><i class="fa-brands fa-aws"></i><h3>[AWS Certification Name]</h3><p>Issuer: Amazon Web Services</p><span class="status">Status: [Completed / In progress]</span></div>
+      <div class="card cert"><i class="fa-brands fa-linux"></i><h3>[Linux Certification Name]</h3><p>Issuer: [Issuing organization]</p><span class="status">Status: [Completed / In progress]</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education" class="section">
+  <div class="container">
+    <h2 class="sec-title">Education</h2>
+    <div class="card edu reveal">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <div>
+        <h3>BTech in Artificial Intelligence and Machine Learning (AIML)</h3>
+        <p>[College / University name]</p>
+        <p class="muted">[Start year] to [Expected graduation year]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section alt">
+  <div class="container">
+    <h2 class="sec-title">Contact</h2>
+    <p class="center lead">Open to AWS cloud internships and fresher roles. Let's connect.</p>
+    <div class="cards contact reveal">
+      <a class="card" href="mailto:your.email@example.com"><i class="fa-solid fa-envelope"></i><h3>Email</h3><p>your.email@example.com</p></a>
+      <a class="card" href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i><h3>LinkedIn</h3><p>linkedin.com/in/YOUR-PROFILE</p></a>
+      <a class="card" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><h3>GitHub</h3><p>github.com/YOUR-USERNAME</p></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container foot-inner">
+    <p>&copy; <span id="year"></span> Vishal Pawar. All rights reserved.</p>
+    <div class="socials small">
+      <a href="https://github.com/YOUR-USERNAME" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/YOUR-PROFILE" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:your.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <a href="#home" class="top">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

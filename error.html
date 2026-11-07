@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 Page Not Found | Vishal Pawar</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- Same stylesheet as the main site. Error page styles are at the bottom of style.css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="err-body">
+
+  <!-- Simple header: logo only -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><i class="fa-solid fa-cloud"></i> Vishal<span>Pawar</span></a>
+      <a href="index.html" class="nav-back">Back to portfolio</a>
+    </div>
+  </header>
+
+  <main class="err">
+    <div class="container err-inner">
+      <i class="fa-solid fa-cloud-bolt err-icon"></i>
+      <h1 class="err-code">404</h1>
+      <h2>Page not found</h2>
+      <p class="lead">The page you are looking for doesn't exist, was moved, or the link has a typo. Use one of the links below to get back on track.</p>
+
+      <!-- Terminal-style message (cloud engineer touch). Edit freely. -->
+      <div class="term" role="img" aria-label="Terminal showing HTTP 404 Not Found">
+        <p><span class="prompt">$</span> curl -I https://your-domain.com/this-page</p>
+        <p class="out">HTTP/1.1 404 Not Found</p>
+        <p class="out ok"># Fix: go back to the home page</p>
+      </div>
+
+      <div class="btns">
+        <a href="index.html" class="btn primary"><i class="fa-solid fa-house"></i> Go to Home</a>
+        <a href="index.html#projects" class="btn ghost">View Projects</a>
+        <a href="index.html#contact" class="btn ghost">Contact Me</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot-inner">
+      <p>&copy; <span id="year">2026</span> Vishal Pawar. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
